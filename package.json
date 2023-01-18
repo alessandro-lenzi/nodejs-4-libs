@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-4-libs",
+  "version": "1.0.0",
+  "description": "Tests with 4 cool libs on nodejs: tsx + tsup + vitest + zod",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "start:prd": "node dist/server.js",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandro-lenzi/nodejs-4-libs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tsx",
+    "tsup",
+    "vitest",
+    "zod"
+  ],
+  "author": "Alessandro Lenzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandro-lenzi/nodejs-4-libs/issues"
+  },
+  "homepage": "https://github.com/alessandro-lenzi/nodejs-4-libs#readme",
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4",
+    "vitest": "^0.27.2"
+  },
+  "dependencies": {
+    "zod": "^3.20.2"
+  }
+}
